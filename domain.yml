@@ -1,0 +1,68 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - error
+  - error_code_404
+  - out_of_scope
+  - error_code_500
+  - error_code_400
+
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_error
+- utter_error_code_400
+- utter_default
+- utter_error_code_500
+- utter_error_code_404
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+  
+  utter_error:
+  - text: "tell me the error."
+
+  utter_error_code_400:
+  - text: "This might me a miisng parameter error.Kindly check the parameter"
+
+  utter_error_code_500:
+  - text: "Database connectivity error, check the connectivity"
+  
+  utter_error_code_404:
+  - text: "This might be a input error check the inputs"
+
+
+  utter_default:
+  - text: "sry i cant understand please reframe ur phase"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
