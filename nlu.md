@@ -84,12 +84,16 @@
 
 ## intent:error_code_500
 - i having error ORC-2345
-- database error ORC-2345
-- data base connectivity error ORC-2345
-- cant update in database error ORC-2345
-- showing error in database ORC-2345
-- i am facing an error showing ORC-2345
-
+- error in my code showing ORC-2345
+- error ORC-2345
+- error in my system ORC-2345
+- sytem is having error ORC-2345
+- error in my code ORC-2345
+- error showing ORC-2345
+- error that been in my code ORC-2345
+- syntax error in my code showing ORC-2345
+- error error ORC-2345
+- i have an error ORC-2345
 ## intent:error_code_404
 - i am facing an error showing ORT-4165
 - parameter issue error showing ORT-4165
